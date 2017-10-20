@@ -1,0 +1,68 @@
+body {
+    background: #4EBABA;
+}
+
+h1, p, a {
+    text-decoration: none;
+    text-align: center;
+    color: #eee;
+}
+
+li {
+    color: #eee;
+    list-style: circle;
+}
+
+.instructions {
+    margin: 0 auto;
+    max-width: 300px;
+    width: 100%;
+}
+
+#buttonDiv {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#toggleButton {
+    background-color: #ff6b6b; /* Peach */
+    color: #eee;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid #eee;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+    min-width: 275px;
+    width: 20%;
+}
+
+#toggleButton:hover {
+    background-color: #E24343; /* Peach Darker */
+}
+
+.divContainer {
+    margin: 0 auto;
+    height: 100px;
+    max-width: 750px;
+    width: 95%;
+    padding: 20px 0;
+    border: 2px solid #eee;
+    border-radius: 15px;
+}
+
+.theDiv {
+    display: none;
+    background-color: #ff6b6b; /* Peach */
+    color: #eee;
+    font-weight: 600;
+    width: 85%;
+    padding: 20px;
+    margin: 0 auto;
+    border: 2px solid #eee;
+    border-radius: 15px;
+}
