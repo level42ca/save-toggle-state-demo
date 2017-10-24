@@ -21,7 +21,7 @@ function toggles() {
 	// Toggle the div:
 	Button.click(function(){ // When the button is clicked ...
 		console.log('[debug] - The button has been clicked!') // Debug line
-		theDiv.slideToggle('2000', 'easeInOutQuint').promise().done(function() { // ... toggle the div's visibility, and wait for the action to be completed.
+		theDiv.slideToggle(200, 'easeInOutQuint').promise().done(function() { // ... toggle the div's visibility, and wait for the action to be completed.
             console.log('[debug] - Checking if the div is hidden or not.') // Debug line
 			if (theDiv.css('display') == 'none') { // Check if the div is visible or not
 				console.log('[debug] - The div is now hidden.') // Debug line
