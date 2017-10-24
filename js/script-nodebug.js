@@ -15,7 +15,7 @@ function toggles() {
 	
 	// Toggle the div:
 	Button.click(function(){
-		theDiv.slideToggle('2000', 'easeInOutQuint').promise().done(function() {
+		theDiv.slideToggle(200, 'easeInOutQuint').promise().done(function() {
 			if (theDiv.css('display') == 'none') {
 				Button.html('Toggle (The div is hidden)'), sessionStorage.setItem('savedState', 'false');
 			} else {
